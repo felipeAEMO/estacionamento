@@ -9,12 +9,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Estacionamento nas Nuvens API", version = "0.0.1-SNAPSHOT", description = "API criada como parte do bootcamp Spring Boot Experience"))
+@OpenAPIDefinition(info = @Info(title = "Estacionamento", version = "0.0.1-SNAPSHOT", description = ""))
 @SecurityScheme(name = "javainuseapi", scheme = "basic", type = SecuritySchemeType.HTTP, in = SecuritySchemeIn.HEADER)
-public class EstacionamentoDasNuvensApplication {
+public class EstacionamentoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EstacionamentoDasNuvensApplication.class, args);
+        SpringApplication.run(EstacionamentoApplication.class, args);
     }
 
 }
